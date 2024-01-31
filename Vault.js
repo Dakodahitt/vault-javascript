@@ -24,7 +24,7 @@ function sendAlert2() {
   var code2 = 20 * 2;
   // log code2
   console.log(code2);
-  // button for frist number to apper
+  // button for second number to apper
   const name = document.querySelector(".code2");
   const btn = document.querySelector("button");
   //change's color of code2 to silver
@@ -39,7 +39,7 @@ function sendAlert3() {
   var code3 = Math.floor (80/2.051);
   // log code3
   console.log(code3);
-  // button for frist number to apper
+  // button for third number to apper
   const name = document.querySelector(".code3");
   const btn = document.querySelector("button");
   //change's color of code3 to black
