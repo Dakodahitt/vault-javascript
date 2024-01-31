@@ -32,3 +32,18 @@ function sendAlert2() {
 }
 
 //after click send alert
+function sendAlert3() {
+  alert("You got the third code!");
+  console.log("Third code");
+  // divide 80 by 2.051
+  var code3 = 80/2.051;
+  // log code
+  console.log(code3);
+  // button for frist number to apper
+  const name = document.querySelector(".code3");
+  const btn = document.querySelector("button");
+  //change's color of code3 to black
+  name.style.color = "black";
+  // alert you have the code's
+  alert("You got all the codes for the vault. The code it 10-40-39")
+}
