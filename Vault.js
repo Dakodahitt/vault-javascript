@@ -7,7 +7,7 @@ function sendAlert1() {
   console.log("First code");
   // add 3 and 7 for code
   var code1 = 3 + 7;
-  // log code
+  // log code1
   console.log(code1);
   // button for frist number to apper
   const name = document.querySelector(".code1");
@@ -22,7 +22,7 @@ function sendAlert2() {
   console.log("Second code");
   // times 20 and 2 for code
   var code2 = 20 * 2;
-  // log code
+  // log code2
   console.log(code2);
   // button for frist number to apper
   const name = document.querySelector(".code2");
@@ -37,7 +37,7 @@ function sendAlert3() {
   console.log("Third code");
   // divide 80 by 2.051
   var code3 = 80/2.051;
-  // log code
+  // log code3
   console.log(code3);
   // button for frist number to apper
   const name = document.querySelector(".code3");
