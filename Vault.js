@@ -36,7 +36,7 @@ function sendAlert3() {
   alert("You got the third code!");
   console.log("Third code");
   // divide 80 by 2.051
-  var code3 = 80/2.051;
+  var code3 = Math.floor (80/2.051);
   // log code3
   console.log(code3);
   // button for frist number to apper
@@ -46,4 +46,5 @@ function sendAlert3() {
   name.style.color = "black";
   // alert you have the code's
   alert("You got all the codes for the vault. The code it 10-40-39")
+  
 }
